@@ -1,3 +1,1 @@
-2026-10-13 13:49:52 | SUBAGENTE terminó  | a362b993bbfce1281
-2026-10-13 13:50:21 | SUBAGENTE terminó  | afedb41f509dae665
-2026-10-13 13:53:21 | SUBAGENTE terminó  | ab6019a1de67f5fee
+2026-10-14 12:17:09 | Bash               | cd /c/UPB/hooks && rm -f .claude/auditoria.log && git status --short
