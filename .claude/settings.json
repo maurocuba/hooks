@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/proteger_archivos.py\"",
+            "command": "py \"$CLAUDE_PROJECT_DIR/.claude/hooks/proteger_archivos.py\"",
             "statusMessage": "Hook: verificando archivos protegidos..."
           }
         ]
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/bloquear_comandos.py\"",
+            "command": "py \"$CLAUDE_PROJECT_DIR/.claude/hooks/bloquear_comandos.py\"",
             "statusMessage": "Hook: revisando que el comando sea seguro..."
           }
         ]
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/ejecutar_tests.py\"",
+            "command": "py \"$CLAUDE_PROJECT_DIR/.claude/hooks/ejecutar_tests.py\"",
             "timeout": 60,
             "statusMessage": "Hook: ejecutando pruebas..."
           }
@@ -39,7 +39,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/auditoria.py\""
+            "command": "py \"$CLAUDE_PROJECT_DIR/.claude/hooks/auditoria.py\""
           }
         ]
       }
@@ -49,7 +49,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/auditoria.py\""
+            "command": "py \"$CLAUDE_PROJECT_DIR/.claude/hooks/auditoria.py\""
           }
         ]
       }
